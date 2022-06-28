@@ -1,0 +1,244 @@
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #f4cd42;
+    font-size: 36px;
+}
+
+.icono {
+    max-width: 35px;
+}
+
+.zigzag {
+    max-height: 50px;
+}
+
+.seccion-video {
+    background-image: url('../img/Malta_home-video.png');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.seccion-dos {
+    background-image: url('../img/fondo-dos.png');
+    height: 800px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.seccion-tres {
+    background-color: #b71a1a;
+    height: 380px;
+}
+
+.seccion-tres-mobile {
+    background-color: #b71a1a;
+}
+
+.seccion-tres-mobile {
+    color: #fffbf3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.seccion-tres p {
+    color: #fffbf3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.seccion-cinco p,
+.contacto p {
+    color: #fffbf3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.seccion-cuatro {
+    background-image: url('../img/fondo-cuatro.png');
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.seccion-cinco {
+    background-color: #b71a1a;
+    height: auto;
+}
+
+.seccion-contacto {
+    background-image: url('../img/Malta_fondo.png');
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    padding: 5rem;
+}
+
+.contacto {
+    max-width: 700px;
+    background-color: #f22734;
+    padding: 3rem 0.5rem 0.5rem 0.5rem;
+}
+
+.contacto h2 {
+    text-transform: none;
+    font-weight: 600;
+}
+
+form {
+    background-color: #ffffff!important;
+    text-align: left;
+    padding: 3rem;
+}
+
+.form-control {
+    border-bottom: #b71a1a solid 2px;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    border-top: none;
+    padding: 0;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #b71a1a;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.h3-seccion-dos-mobile {
+    padding-bottom: 1.5rem;
+    color: #B71A1A;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28xp;
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    border-color: rgb(255, 102, 203)!important;
+}
+
+.divisor-mobile {
+    background-image: url('../img/Malta_divisor.png');
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-comprar {
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+
+.linea-separador {
+    margin: 3rem 0rem;
+}
+
+@media (min-width: 1000px) {
+    .nav-item {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .seccion-video {
+        background-image: url(../img/Malta_home.png);
+        height: 547px;
+        background-position: center center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .seccion-dos {
+        background-image: url(../img/Malta_chicos.png);
+        height: 612px;
+        background-position: center center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .seccion-tres {
+        display: none !important;
+    }
+    .img-separador {
+        display: none;
+    }
+    .seccion-cuatro {
+        background-image: url(../img/botella-mobile-100.jpg);
+        height: 554px;
+        background-position: center center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    .burbujas-desk {
+        display: none;
+    }
+    .img-comprar {
+        max-width: 350px;
+    }
+    .seccion-cinco p,
+    .contacto p {
+        font-size: 18px;
+    }
+    .btn {
+        margin-bottom: 1rem;
+    }
+    .linea-separador {
+        margin: 1rem 0rem;
+    }
+    .seccion-contacto {
+        padding: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    label {
+        font-size: 14px;
+    }
+    .columna {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .h3-seccion-dos-mobile {
+        display: none;
+    }
+    .seccion-tres-mobile {
+        display: none;
+    }
+    .imagen-refresco {
+        max-width: 800px;
+    }
+    .divisor-mobile {
+        display: none;
+    }
+    .burbujas-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    #ul-desk {
+        display: none;
+    }
+    .nav {
+        padding: 1rem 0;
+    }
+}
+
+@media (min-width: 992px) {
+    #ul-mobile {
+        display: none;
+    }
+    .nav {
+        padding: 0.8rem 4rem;
+    }
+}
